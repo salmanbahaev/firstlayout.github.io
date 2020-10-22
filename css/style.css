@@ -1,0 +1,173 @@
+@font-face {
+	font-family: "mullernarrow";
+	src: url("../fonts/mullernarrow/MullerLight.otf");
+	src: url("../fonts/mullernarrow/MullerLight.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/mullernarrow/MullerLight.woff") format("woff"),
+			 url("../fonts/mullernarrow/MullerLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "mullernarrow";
+	src: url("../fonts/mullernarrow/MullerRegular.otf");
+	src: url("../fonts/mullernarrow/MullerRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/mullernarrow/MullerRegular.woff") format("woff"),
+			 url("../fonts/mullernarrow/MullerRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "mullernarrow";
+	src: url("../fonts/mullernarrow/MullerBold.otf");
+	src: url("../fonts/mullernarrow/MullerBold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/mullernarrow/MullerBold.woff") format("woff"),
+			 url("../fonts/mullernarrow/MullerBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{
+	display: block;
+	font-family: 'MullerNarrow';
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	font-family: 'MullerNarrow' sans-serif;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+ul, li {
+	display: block;
+	font-family: 'MullerNarrow';
+}
+.container-menu {
+	width: 1920px;
+	margin: 0 auto;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+header a {
+	color: #A0A0A0;
+}
+.logo {
+	position: relative;
+	width: 315px;
+	height: 49px;
+	margin-right: 169px;
+	margin-left: 60px;
+}
+.logo__about {
+	position: absolute;
+	display: inline-block;
+	width: 129px;
+	bottom: 0px;
+	right: 0px;
+	color: #0170B0;
+	font-weight: 400;
+}
+.menu {
+	display: flex;
+}
+.menu li a {
+	position: relative;
+	color: #A0A0A0; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none;
+	font-size: 16px;
+}
+.menu li a:after {
+	display: block;
+	position: absolute;
+	bottom: -5px;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 1px; /*задаём ширину линии*/
+	background-color: #0170B0; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.2s ease-out; /*задаём время анимации*/
+}
+.menu li a:hover:after,
+.menu li a:focus:after {
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+}
+
+.menu li {
+	margin-right: 50px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+	height: 86px;
+	border: 1px solid #EBEBEB;
+}
+.contacts {
+	width: 265px;
+	height: 45px;
+	position: relative;
+	display: inline-block;
+	margin-right: 60px;
+	margin-left: auto;
+}
+.contacts__img {
+	top: 4px;
+	position: absolute;
+}
+.contacts__tel {
+	position: absolute;
+	display: inline-block;
+	top: 0px;
+	right: 0px;
+	font-size: 24px;
+	font-weight: bold;
+	background: linear-gradient(316.47deg, #0170B0 4.47%, #18BBEB 110.72%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contacts__text {
+  color: #0170B0;
+	position: absolute;
+	font-size: 16px;
+	right: 0;
+	bottom: 0px;
+	text-decoration: underline;
+}
