@@ -171,3 +171,49 @@ header a {
 	bottom: 0px;
 	text-decoration: underline;
 }
+
+/* .header	{
+
+} */
+
+.img-behind {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 424px;
+	height: 493px;
+	margin: 0 auto;
+	border: 1px solid #000;
+	background: url(/img/about/img-main.png) no-repeat;
+	background-position: center;
+}
+.img-main {
+	border: 50px solid #000;
+	width: 350px;
+	height: 350px;
+	z-index: -22;
+	transform: rotate(45deg);
+}
+.img-front {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 52px solid red;
+	transform: rotate(45deg);
+}
+/* 
+.box1 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-image: url(/img/about/img-main.png);
+} 
+.box2 {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	border: 11px solid #000;
+	transform: rotate(45deg);
+	z-index: -2;
+}*/
