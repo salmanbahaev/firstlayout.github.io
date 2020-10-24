@@ -27,8 +27,6 @@
 	font-style: normal;
 	font-weight: bold;
 }
-
-
 /*Обнуление*/
 *{
 	padding: 0;
@@ -71,7 +69,6 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-
 ul, li {
 	display: block;
 	font-family: 'MullerNarrow';
@@ -189,16 +186,22 @@ header a {
 	background-position: center;
 }
 .img-main {
-	border: 50px solid #000;
 	width: 350px;
 	height: 350px;
-	z-index: -22;
+	border: 50px solid;
+	border-image-source: linear-gradient(348.89deg, #0170B0 -30.39%, #18BBEB 123.01%);
+	border-image-slice: 1;
 	transform: rotate(45deg);
+	z-index: -10;
 }
 .img-front {
 	position: absolute;
-	width: 300px;
-	height: 300px;
-	border: 52px solid red;
+	width: 350px;
+	height: 350px;
+	border: 50px solid;
+	border-right: none;
+	border-bottom: none;
+	border-image-source: linear-gradient(348.89deg, #0170B0 -30.39%, #18BBEB 123.01%);
+	border-image-slice: 1;
 	transform: rotate(45deg);
 }
