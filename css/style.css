@@ -182,7 +182,7 @@ header a {
 	height: 493px;
 	margin: 0 auto;
 	border: 1px solid #000;
-	background: url(/img/about/img-main.png) no-repeat;
+	background: url(../img/about/img-main.png) no-repeat;
 	background-position: center;
 }
 .img-main {
@@ -205,3 +205,4 @@ header a {
 	border-image-slice: 1;
 	transform: rotate(45deg);
 }
+
