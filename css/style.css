@@ -45,7 +45,6 @@ nav,footer,header,aside{
 	display: block;
 	font-family: 'MullerNarrow';
 }
-
 html,body{
 	height: 100%;
 	width: 100%;
@@ -127,11 +126,9 @@ header a {
 .menu li a:focus:after {
 	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
 }
-
 .menu li {
 	margin-right: 50px;
 }
-
 .nav {
 	display: flex;
 	align-items: center;
@@ -177,7 +174,6 @@ header a {
 	display: flex;
 	justify-content: center;
 }
-
 .content__img {
 	margin-top: 25px;
 	/* margin-left: 33px; */
@@ -203,7 +199,6 @@ header a {
 	border-image-slice: 1;
 	z-index: -3;
 }
-
 .img-main__third {
 	position: absolute;
 	border-top: 50px solid;
@@ -217,7 +212,6 @@ header a {
 	height: 350px;
 	z-index: 3;
 }
-
 .content__text {
 	margin: 83px 0 67px 40px;
 	display: flex;
@@ -227,7 +221,6 @@ header a {
 .content__about {
 	margin-bottom: 77px;
 }
-
 h1 {
 	font-size: 55px;
 	margin-bottom: 5px;
@@ -243,7 +236,6 @@ h1 {
 	line-height: 21.6px;
 	color: #A0A0A0;
 }
-
 .content__plan {}
 
 .content__plan-text {
@@ -260,11 +252,9 @@ h1 {
 	margin-left: -10px;
 	border-left: 3px solid #18BBEB;
 }
-
 .span-text1 {
 	font-weight: 700;
 }
-
 .span-text2 {}
 
 .content__plan-button {
@@ -272,7 +262,6 @@ h1 {
 	border: 1px solid #FFC6DA;
 	border-radius: 47px;
 }
-
 .button-price {
 	margin: 7px;
 	font-weight: 700;
@@ -295,7 +284,6 @@ h1 {
 	position: absolute;
 	margin-top: 281px;
 	margin-left: 467px;
-
 	z-index: -4;
 }
 .vector__ellipse-2 {
@@ -310,6 +298,3 @@ h1 {
 	margin-top: 373px;
 	margin-left: 1622px;
 }
-
-
-
