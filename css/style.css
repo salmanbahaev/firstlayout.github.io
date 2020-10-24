@@ -167,8 +167,9 @@ header a {
 	text-decoration: underline;
 }
 
-/* .header	{
-} */
+.header	{
+	margin-bottom: 30px;
+}
 
 .content {
 	display: flex;
