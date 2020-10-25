@@ -400,12 +400,13 @@ h1 {
 
 .services-flex {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .services__item {
-	margin: 0 63px 50px;
+	margin-bottom: 50px;
+	width: 28.3%;
 	/* flex-direction: column;
 	justify-content: center;
 	align-items: center; */
@@ -441,5 +442,5 @@ h1 {
 .tool-img {
 	position: absolute;
 	right: 29px;
-	bottom: -106px;
+	bottom: -140px;
 }
