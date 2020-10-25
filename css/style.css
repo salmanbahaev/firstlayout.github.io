@@ -273,19 +273,13 @@ h1 {
 	margin-top: 373px;
 	margin-left: 1622px;
 }
-
-
-.present-flex {}
-.flex-center {
-	margin: auto;
-}
-
+/* =============================== */
 .present {
 	margin-top: 45px;
-	text-align: center;
 }
 .present__header p {
 	font-family: 'Muller';
+	text-align: center;
 	font-size: 48px;
 	line-height: 100%;
 }
@@ -302,9 +296,81 @@ h1 {
 	font-weight: 400;
 	color: #A0A0A0;
 }
-
+/* ========================= */
 .present-bg {
+	display: flex;
+	justify-content: center;
+	position: relative;
 	margin-top: 25px;
 }
 .present-bg__bg {
+	position: relative;
+	display: flex;
+}
+.present-bg__front {
+	position: absolute;
+	/* border-right: 2px solid #fff; */
+}
+
+
+.present__line {
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	background-color: #fff;
+	border-radius: 1px;
+}
+.line-center {
+	position: absolute;
+	width: 0px;
+	top: 121px;
+	left: -5px;
+	border: 6px solid #fff;
+	border-radius: 6px;
+	height: 142px;
+	background-color: #fff000;
+}
+
+.present__circle {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	left:-30px;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.present__circle img {
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin: auto;
+	cursor: pointer;
+}
+
+/* ===================== */
+.present-ftr {
+	display: flex;
+	margin: 20px 0 25px 59px;
+}
+.present-info {
+	font-family: 'Muller';
+	margin: 2px 0 0 15px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+}
+.present-ftr span {
+	font-weight: 700;
+	line-height: 1.2em;
+	color: transparent; 
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(348.89deg, #0170B0 -30.39%, #18BBEB 123.01%);
 }
