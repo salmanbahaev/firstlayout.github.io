@@ -1,37 +1,11 @@
-@font-face {
-	font-family: "mullernarrow";
-	src: url("../fonts/mullernarrow/MullerLight.otf");
-	src: url("../fonts/mullernarrow/MullerLight.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/mullernarrow/MullerLight.woff") format("woff"),
-			 url("../fonts/mullernarrow/MullerLight.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "mullernarrow";
-	src: url("../fonts/mullernarrow/MullerRegular.otf");
-	src: url("../fonts/mullernarrow/MullerRegular.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/mullernarrow/MullerRegular.woff") format("woff"),
-			 url("../fonts/mullernarrow/MullerRegular.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-
-@font-face {
-	font-family: "mullernarrow";
-	src: url("../fonts/mullernarrow/MullerBold.otf");
-	src: url("../fonts/mullernarrow/MullerBold.eot?#iefix") format("embedded-opentype"),
-			 url("../fonts/mullernarrow/MullerBold.woff") format("woff"),
-			 url("../fonts/mullernarrow/MullerBold.ttf") format("truetype");
-	font-style: normal;
-	font-weight: bold;
-}
 /*Обнуление*/
 *{
 	padding: 0;
 	margin: 0;
 	border: 0;
+}
+p {
+	margin-bottom: 0;
 }
 *,*:before,*:after{
 	-moz-box-sizing: border-box;
@@ -43,13 +17,17 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{
 	display: block;
-	font-family: 'MullerNarrow';
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: normal;
 }
 html,body{
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
-	font-family: 'MullerNarrow' sans-serif;
+	font-family: 'Muller' sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
@@ -66,19 +44,15 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;line-height: 1;}
 /*--------------------*/
 ul, li {
 	display: block;
-	font-family: 'MullerNarrow';
+	font-family: 'Muller';
 }
 .container-menu {
 	background: white;
 	min-width: 1280px;
-	margin: 0 auto;
-}
-.container {
-	width: 1170px;
 	margin: 0 auto;
 }
 header a {
@@ -94,14 +68,14 @@ header a {
 .logo__about {
 	position: absolute;
 	display: inline-block;
-	width: 129px;
-	bottom: 0px;
-	right: 0px;
+	right: 0;
+	bottom: 0;
 	color: #0170B0;
 	font-weight: 400;
 }
 .menu {
 	display: flex;
+	margin-bottom: 0px;
 }
 .menu li a {
 	position: relative;
@@ -298,4 +272,39 @@ h1 {
 	z-index: -4;
 	margin-top: 373px;
 	margin-left: 1622px;
+}
+
+
+.present-flex {}
+.flex-center {
+	margin: auto;
+}
+
+.present {
+	margin-top: 45px;
+	text-align: center;
+}
+.present__header p {
+	font-family: 'Muller';
+	font-size: 48px;
+	line-height: 100%;
+}
+.present__header span {
+	color: transparent; 
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(348.89deg, #0170B0 -30.39%, #18BBEB 123.01%);
+}
+.present__header .present-mini {
+	font-size: 22px;
+	line-height: 26.4px;
+	margin-top: 3px;
+	font-weight: 400;
+	color: #A0A0A0;
+}
+
+.present-bg {
+	margin-top: 25px;
+}
+.present-bg__bg {
 }
