@@ -254,7 +254,6 @@ h1 {
 }
 .vector {
 	position: absolute;
-	overflow: hidden;
 	z-index: -5;
 }
 .vector__ellipse-1 {
