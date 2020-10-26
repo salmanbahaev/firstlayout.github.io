@@ -441,8 +441,10 @@ h1 {
 	background-color: #fff;
 }
 /* ============================= */
-
-.gradient_text {
+.problem {
+	margin-top: 39px;
+}
+.gradient-text {
 	color: transparent; 
 	background-clip: text;
 	-webkit-background-clip: text;
@@ -466,6 +468,13 @@ h1 {
 	line-height: 155%;
 	color: #A0A0A0;
 }
+.mrgn {
+	margin-top: 25px;
+	margin-left: -155px;
+}
+.mrgn-2 {
+	margin-top: 27px;
+}
 .sign-up {
 	font-style: normal;
 	font-weight: normal;
@@ -475,6 +484,7 @@ h1 {
 }
 
 .sign-text {
+	margin-top: 3px;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -493,8 +503,9 @@ h1 {
 	line-height: 150%;
 	margin-top: 20px;
 	margin-bottom: 10px;
-	padding-bottom: 6px;
+	padding-bottom: 3px;
 	width: 351px;
+	background-color: transparent;
 	color: #A3A3A3;
 	border-bottom: 0.5px solid #A3A3A3;
 }
@@ -510,6 +521,9 @@ h1 {
 	display: flex;
 }
 .doctor-icon {
+	display: flex;
+	justify-content: center;
+	width: 36px;
 	margin-top: 4px;
 }
 .doctor-man {
@@ -528,12 +542,29 @@ h1 {
 	font-size: 18px;
 	line-height: 120%;
 }
-
-
-.search {
-	display: flex;
+.identif-10 {
+	margin-top: 10px;
 }
-.search-icon {}
-.search-address {}
-.search-title {}
-.search-info {}
+.mrgn-41 {
+	margin-top: 41px;
+	line-height: 120%;
+}
+.clear-text {
+	font-style: normal;
+	font-weight: 800;
+	font-size: 62px;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: transparent; 
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: linear-gradient(360deg, #FFFFFF 26.34%, rgba(255, 255, 255, 0) 83.87%),
+	linear-gradient(0deg, #EDEDED, #EDEDED);
+}
+.clear-info {
+	font-family: 'Muller';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 150%;
+}
