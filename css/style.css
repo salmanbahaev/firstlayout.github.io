@@ -669,6 +669,7 @@ h1 {
 	height: 57px;
 	border: 7px solid rgba(24, 187, 235, 0.4);
 	border-radius: 50%;
+	z-index: 1;
 }
 .arrow__left {
 	position: absolute;
@@ -684,4 +685,15 @@ h1 {
 	cursor: pointer;
 	top: 19px;
 	right: 22px;
+}
+/* ======================== */
+.scroll {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.no-active {
+	margin-left: 5px;
+	display: flex;
+	align-items: center;
 }
