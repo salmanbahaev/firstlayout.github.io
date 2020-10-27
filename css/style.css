@@ -623,5 +623,65 @@ h1 {
 /* ======================= */
 .slider {
 	background-image: url(../img/probl/line-2.svg);
-	/* margin-top: 58px; */
+}
+
+.slider__img {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+.slider__img-1 {
+	margin-bottom: 1.5%;
+	padding-right: 4px;
+}
+.slider__img-2 {}
+
+.slider__img-3 {
+	margin-bottom: 1.5%;
+	padding-left: 4px;
+}
+.arrow {
+	height: 100%;
+	align-items: center;
+}
+.slider-flex {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.arrow__relative-left {
+	position: relative;
+}
+.arrow__bold {
+	position: absolute;
+	width: 57px;
+	height: 57px;
+	border: 7px solid rgba(24, 187, 235, 0.2);
+	border-radius: 50%;
+	top: 0;
+	left: 0;
+}
+.arrow__bold:hover {
+	position: absolute;
+	cursor: pointer;
+	width: 57px;
+	height: 57px;
+	border: 7px solid rgba(24, 187, 235, 0.4);
+	border-radius: 50%;
+}
+.arrow__left {
+	position: absolute;
+	cursor: pointer;
+	top: 19px;
+	left: 22px;
+}
+.arrow__relative-right {
+	position: relative;
+}
+.arrow__right {
+	position: absolute;
+	cursor: pointer;
+	top: 19px;
+	right: 22px;
 }
