@@ -524,6 +524,39 @@
       </div>
     </div>
   </div>
+
+  <div class="address">
+    <div class="map-title">
+      <p class="map-title-1 gradient-text-high">Наш адрес</p>
+      <p class="map-title-2">мы находимся в центре Москвы</p>
+    </div>
+    <div id="map"></div>
+  </div>
+
+  <script>
+    function initMap() {
+      // [START maps_add_map_instantiate_map]
+      // The location of Uluru
+      const uluru = { lat: 55.745089, lng: 37.488686 };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: uluru,
+      });
+      // [END maps_add_map_instantiate_map]
+      // [START maps_add_map_instantiate_marker]
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+      // [END maps_add_map_instantiate_marker]
+    }
+  </script>
+  <script defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXrCnCiLBTHis2Dg6yT_C4P1lJb_Mcy-c&callback=initMap">
+</script>
+
   <script src="js/main.js"></script>
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
