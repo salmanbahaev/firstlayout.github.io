@@ -861,8 +861,63 @@ h1 {
 .doctors {
 	padding-top: 32px; 
 }
-
 .our-doc {
 	font-size: 48px;
 	line-height: 120%;
+}
+/* ====================== */
+.m-t-18 {margin-top: 18px;}
+.arr-up {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+}
+.arr-down {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.name {
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.name-1 {}
+.name-2 {
+	background: #FFFFFF;
+	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+}
+.name-3, .name-4 {background: #F8F8F8;}
+
+.names-img {
+	padding: 13px 45px;
+}
+.names-text1 {
+	font-size: 18px;
+	line-height: 120%;
+	color: #808080;
+}
+.names-text2 {
+	font-size: 18px;
+	line-height: 120%;
+	color: #000;
+}
+.doc-flex {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.doc-photo {}
+.doc-nm {margin-top: 40px;}
+.doc-nm-yes {
+	text-align: center;
+	font-size: 24px;
+	line-height: 130%;
+}
+.doc-nm-in {
+	text-align: center;
+	font-size: 18px;
+	line-height: 130%;
+	color: #A0A0A0;
 }
