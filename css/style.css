@@ -935,6 +935,68 @@ h1 {
 	color: #A0A0A0;
 }
 #map {
-	width: 100%;
-	height: 661px;
+	position: relative;
+}
+.address-info {
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+	border-radius: 15px;
+	top: 14%;
+	right: 20%;
+}
+.img-addr {
+	padding: 15px 13px;
+}
+.address-point {text-align: center;margin-top: 2px;}
+.addr-1 {
+	font-size: 14px;
+	line-height: 120%;
+	color: #A3A3A3;
+}
+.addr-2 {
+	font-size: 24px;
+	line-height: 120%;
+	margin-top: 6px;
+}
+.addr-button {
+	margin-top: 13px;
+	margin-bottom: 25px;
+}
+.cover {
+	-webkit-backdrop-filter: blur(5px);
+  background: rgba(255, 255, 255, 0.4);
+	backdrop-filter: blur(10px);
+}
+/* ============================ */
+.advice-flex {
+	display: flex;
+	justify-content: flex-end;
+}
+.m-t-14 {
+	display: flex;
+	margin-top: 14px;
+}
+.advice-info {
+	width: 427px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.advice-p-1 {
+	font-size: 36px;
+	line-height: 120%;
+}
+.advice-p-2 {
+	font-size: 18px;
+	line-height: 150%;
+	margin-top: 10px;
+	color: #A0A0A0;
+}
+.advice-form {margin-top: 10px;}
+.advice-info span {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 150%;
 }

@@ -248,7 +248,7 @@
         </div>
         <div class="col-7">
           <div class="problem-bg2">
-            <img src="img/probl/image-2-min.jpg" alt="">
+            <img src="img/probl/image-2-min.png" alt="">
           </div>
         </div>
       </div>
@@ -256,7 +256,7 @@
       <div class="row mrgn-4">
         <div class="col-7">
           <div class="problem-bg3">
-            <img src="img/probl/image-3-min.jpg" alt="">
+            <img src="img/probl/image-3-min.png" alt="">
           </div>
         </div>
         <div class="col-5 problem-flex">
@@ -276,15 +276,10 @@
         </div>
         <div class="col-7">
           <div class="problem-bg4">
-            <img src="img/probl/image-4-min.jpg" alt="">
+            <img src="img/probl/image-4-min.png" alt="">
           </div>
         </div>
       </div>
-
-      
-      
-      
-
     </div>
   </div>
   <div class="slider">
@@ -347,7 +342,6 @@
     </div>
   </div>
 
-
   <div class="forms">
     <div class="forms__bg">
       <div class="container">
@@ -360,7 +354,6 @@
         <div class="row">
           <div class="col-6 p-0">
             <div class="forms__info">
-
               <div class="forms__text">
                 <div class="forms__text-1">
                   <p>Консультация и план лечения бесплатны?</p>
@@ -369,7 +362,6 @@
                   </div>
                 </div>
               </div>
-
               <div class="forms__text">
                 <div class="forms__text-1 gradient-text-light">
                   <p>Как вы соблюдаете стерильность?</p>
@@ -422,7 +414,6 @@
                     <p class="form-t">Есть дополнительные вопросы?</p>
                     <p class="form-t-sub">Оставьте контакты и мы перезвоним Вам:</p>
                   </div>
-
                   <form action="#" method="POST">
                     <div class="form-option">
                       <input class="input-style m-l-1" placeholder="Ваше имя" type="text" name="username">
@@ -433,23 +424,18 @@
                     </div>
                   </form>
                 </div>
-
                 <div class="form-right-img">
                   <img src="img/probl/tooth.png" alt="">
                 </div>
-                
                 <div class="main-form__go-2">
                   <img src="img/probl/doctor.png" alt="">
                 </div>
-
                 <div class="form-right-img-2">
                   <img src="img/probl/pla-2.png" alt="">
                 </div>
-
                 <div class="form-right-img-3">
                   <img src="img/probl/pla-3.png" alt="">
                 </div>
-                
               </div>
             </div>
           </div>
@@ -478,6 +464,7 @@
       </div>
     </div>
   </div>
+
   <div class="doctors">
     <div class="container p-1">
       <div class="row d-flex justify-content-center">
@@ -530,17 +517,61 @@
       <p class="map-title-1 gradient-text-high">Наш адрес</p>
       <p class="map-title-2">мы находимся в центре Москвы</p>
     </div>
-    <div id="map"></div>
+
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.7744698847946!2d37.48852529489752!3d55.74504747807689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b5494e2f6607d5%3A0x47173aafb1471f2a!2z0YPQuy4g0JHQvtC70YzRiNCw0Y8g0KTQuNC70LXQstGB0LrQsNGPLCAyNSwg0JzQvtGB0LrQstCwLCAxMjEzMDk!5e0!3m2!1sru!2sru!4v1604073760421!5m2!1sru!2sru" width="100%" height="661" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      <div class="address-info cover">
+        <div class="img-addr">
+          <img src="img/probl/image-13-min.png" alt="">
+        </div>
+        <div class="address-point">
+          <p class="addr-1">Адрес:</p>
+          <p class="addr-2">г. Москва,<br>ул, Большая Филевская, 25</p>
+        </div>
+        <div class="addr-button content__plan-button">
+          <button class="button-price">Записатьcя на приём</button>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <script>
+  <div class="advice">
+    <div class="container p-0">
+      <div class="row advice-flex">
+        <div class="col-auto m-t-14">
+          <div class="advice-info">
+            <p class="advice-p-1 gradient-text-high">Узнать цены и сроки,<br>получить консультацию<br>и записаться на приём</p>
+            <p class="advice-p-2">Вы можете, заказав <span>БЕСПЛАТНЫЙ</span> звонок</p>
+
+            <form class="advice-form" action="#" method="POST">
+              <div>
+                <input class="input-style" placeholder="Ваше имя" type="text" name="username">
+                <input class="input-style" placeholder="Ваш номер телефона" type="tel" name="userphone">
+                <div class="content__plan-button mrgn-t-20">
+                  <button disabled class="button-price" type="submit">Позвоните мне</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+          <div class="advice-img"><img src="img/probl/advice-min.png" alt=""></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <script>
     function initMap() {
       // [START maps_add_map_instantiate_map]
       // The location of Uluru
       const uluru = { lat: 55.745089, lng: 37.488686 };
       // The map, centered at Uluru
       const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 4,
+        zoom: 17,
         center: uluru,
       });
       // [END maps_add_map_instantiate_map]
@@ -552,7 +583,20 @@
       });
       // [END maps_add_map_instantiate_marker]
     }
-  </script>
+    function initMap() {
+      var coordinates = {lat: 55.745307, lng: 37.490596},
+
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: coordinates
+      }),
+  
+      marker = new google.maps.Marker({
+        position: coordinates,
+        map: map
+      });
+    }
+  </script> -->
+
   <script defer
   src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXrCnCiLBTHis2Dg6yT_C4P1lJb_Mcy-c&callback=initMap">
 </script>
