@@ -46,6 +46,9 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;line-height: 1;}
 /*--------------------*/
+.wrapper {
+	width: 1920px;
+}
 ul, li {
 	display: block;
 	font-family: 'Muller';
@@ -54,6 +57,9 @@ ul, li {
 	background: white;
 	width: 100%;
 	margin: 0 auto;
+}
+.container {
+	width: 1170px;
 }
 header a {
 	color: #A0A0A0;
@@ -943,7 +949,7 @@ h1 {
 	text-align: center;
 	border-radius: 15px;
 	top: 14%;
-	right: 20%;
+	right: 15%;
 }
 .img-addr {
 	padding: 15px 13px;
@@ -1053,8 +1059,6 @@ h1 {
 	flex-direction: column;
 	justify-content: space-between;
 }
-.footer__contacts {}
-.footer__number {}
 .footer__number a {
 	color: #FFFFFF;
 	font-style: normal;
