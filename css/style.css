@@ -47,7 +47,7 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;line-height: 1;}
 /*--------------------*/
 .wrapper {
-	width: 1920px;
+	width: 1903px;
 }
 ul, li {
 	display: block;
@@ -388,6 +388,7 @@ h1 {
 	color: #fff;
 }
 .services-wrap {
+	position: relative;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -436,10 +437,10 @@ h1 {
 	color: #AAE8FF;
 }
 .tool-img {
-	max-width: 23%;
+	max-width: 41%;
 	position: absolute;
-	right: 1.5%;
-	bottom: -14.3%;
+	right: -34%;
+	bottom: -26.5%;
 }
 .services__radius-bottom {
 	width: 100%;
