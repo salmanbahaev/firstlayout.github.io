@@ -370,10 +370,11 @@ h1 {
 /* ===================================== */
 .services {
 	width: 100%;
-	background: linear-gradient(276.67deg, rgba(1, 112, 176, 0.94) -6.86%, rgba(24, 187, 235, 0.94) 104.01%);
+	background-image: url(../img/probl/rectangle-9-min.png);
+	/* background: linear-gradient(276.67deg, rgba(1, 112, 176, 0.94) -6.86%, rgba(24, 187, 235, 0.94) 104.01%);
 	backdrop-filter: blur(20px);
 	border-top-left-radius: 50% 13px;
-	border-top-right-radius: 50% 13px;
+	border-top-right-radius: 50% 13px; */
 }
 .services-header {
 	margin-bottom: 25px;
